@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Principal {
+public class Main {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
         Funcionario funcionario = new Funcionario("João", 3000.0);
