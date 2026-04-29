@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
-        Funcionario funcionario = new Funcionario("João", 3000.0, 1);
-        Gerente gerente = new Gerente("Maria", 5000.0, 2);
+        Funcionario funcionario = new Funcionario("João", 3000.0);
+        Gerente gerente = new Gerente("Maria", 5000.0, "TI");
 
         System.out.println("Digite 1 para exibir os dados do funcionário ou 2 para exibir os dados do gerente:");
         int escolha = leitor.nextInt();
